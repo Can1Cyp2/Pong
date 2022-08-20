@@ -1,0 +1,37 @@
+/* Button info: */
+.play-button{
+    padding: 10px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #178d9c;
+    border: rgb(135, 124, 235);
+    border-radius: 15px;
+}
+.play-button:active{
+    background-color: #1ebe73;
+    transform: translateY(5px);
+}
+.play-button:hover{
+    transform: scale(1.05)
+}
+
+
+.players-button{
+    padding: 10px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #353636;
+    border-radius: 55px;
+}
+
+.players-button:hover{
+    transform: scale(1.05)
+}
+.players-button:active{
+    background-color: #1ebe73;
+    transform: translateY(5px);
+}
